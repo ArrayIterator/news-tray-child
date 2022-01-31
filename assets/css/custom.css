@@ -130,6 +130,7 @@
     z-index: 1001;
     font-weight: bold;
     letter-spacing: inherit;
+    white-space: normal;
 }
 .slider-wide-home-feature .owl-carousel .owl-stage-outer {
     /* margin-right: 1em; */
