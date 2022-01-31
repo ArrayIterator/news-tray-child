@@ -58,6 +58,6 @@ if (!function_exists('news_tray_child_after_setup_theme')) {
 }
 add_action('after_setup_theme', 'news_tray_child_after_setup_theme');
 
-add_action('admin_enqueue_scripts', function () {
-	wp_enqueue_style('news-tray-child-custom', get_theme_file_uri('assets/css/custom.css'));
-});
+//add_action('admin_enqueue_scripts', function () {
+//	wp_enqueue_style('news-tray-child-custom', get_theme_file_uri('assets/css/custom.css'));
+//});
