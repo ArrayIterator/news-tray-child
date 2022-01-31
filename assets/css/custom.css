@@ -96,6 +96,7 @@
 }
 .slider-wide-home-container .feature-item img {
     border-radius: 5px;
+    aspect-ratio: 4/3;
 }
 
 .slider-wide-home-container .feature-item a::after {
