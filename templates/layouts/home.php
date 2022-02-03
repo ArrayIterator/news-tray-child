@@ -272,7 +272,11 @@ if ( apply_filters( 'news-tray-boolean-render-home', true ) !== false ) :
                         </div>
 					<?php endif; ?>
 					<?php do_action( 'news-tray-before-render-loop' ); ?>
-                    <h2 class="section-title">Latest Post</h2>
+                    <h2 class="section-title">
+                        <?php
+                            strip_tags(options_news_tray('post_default', 'post_title', __('Latest Post', 'news-tray')))
+                        ?>
+                    </h2>
                 </div>
 
 				<?php do_action( 'news-tray-before-render-loop' ); ?>

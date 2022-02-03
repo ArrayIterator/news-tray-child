@@ -53,5 +53,15 @@ return [
 				'choices'           => misc_news_tray_get_all_tags_as_key_name(),
 			],
 		]
-	]
+	],
+    'post_default' => [
+        'post_title' => [
+            'label'       => __( 'Articles Title', 'news-tray' ),
+            'description' => __( 'Title On Article', 'news-tray' ),
+            'priority'    => 10,
+            'transport'   => 'refresh',
+            'type'        => 'text',
+            'default'     => __( 'Latest Post', 'news-tray' ),
+        ],
+    ]
 ];
