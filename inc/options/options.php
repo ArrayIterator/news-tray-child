@@ -55,8 +55,6 @@ return [
 		]
 	],
     'post_default' => [
-        'title' => __('Slide Above Main Slider', 'news-tray'),
-        'args' => [],
         'settings' => [
             'post_title' => [
                 'label'       => __( 'Articles Title', 'news-tray' ),
