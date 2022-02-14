@@ -20,7 +20,8 @@
 /*    margin-right: 1em;*/
 /*}*/
 
-
+.in-widget-view .widget-post-meta, 
+.sidebar-entry .widget-post-meta,
 .sidebar-entry .related-meta,
 .sidebar-entry .recent-meta,
 .sidebar-entry .popular-meta {
