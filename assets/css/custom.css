@@ -206,6 +206,13 @@
     font-size: 1.5em;
     padding: 10px 0;
 }
+.related-post-section > .related-post-title {
+    font-size: 1.4em;
+    font-weight: 300;
+    border-bottom: 2px solid var(--primary-color, #cb4857);
+    padding: .5em 0;
+    margin-bottom: .8em;
+}
 
 @media only screen and (max-width: 779px) {
     .singular .feature-image {
