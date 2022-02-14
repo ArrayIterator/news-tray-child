@@ -237,6 +237,28 @@
         display: block;
         top: 53px;
     }
+    
+    .entry-content > .code-block > ins.adsbygoogle.parallax {
+        position: relative;
+        overflow: visible;
+        width: calc(100% + 1.5em) !important;
+    }
+
+    .entry-content > .code-block > ins.adsbygoogle.parallax > ins {
+        overflow: hidden;
+        margin-top: 0!important;
+        position: absolute!important;
+        top: 0;
+        left: 0;
+        right:0;
+        clip: rect(auto auto auto auto);
+    }
+    .entry-content > .code-block > ins.adsbygoogle.parallax > ins  > ins {
+        position: fixed!important;
+        top: 90px;
+        margin: 0;
+        transform: translateZ(0);
+    }
 }
 @media only screen and (min-width: 780px) {
     body .loop-wrap article .article-wrapper .entry-thumbnail {
