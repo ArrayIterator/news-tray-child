@@ -20,6 +20,10 @@ add_action('news-tray-boolean-feature-enable-feature-tags', '__return_false');
 // disable youtube
 add_action('news-tray-boolean-feature-enable-feature-youtube-playlist', '__return_false');
 
+add_action('pre_option_show_on_front', function () {
+    return 'posts';
+});
+
 // change scripts
 add_action('wp_enqueue_scripts', function () {
 	$is_singular = is_singular();
